@@ -1,0 +1,239 @@
+@font-face {
+  font-display: swap;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/poppins-v21-latin-regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/poppins-v21-latin-700.woff2") format("woff2");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Poppins";
+  font-style: normal;
+}
+
+h1 {
+  font-size: 8rem;
+  color: #ffffff;
+  margin: 0 auto;
+  background-color: rgba(230, 225, 218, 0.3);
+  border-radius: 2rem;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+section {
+  background-color: aqua;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  background-position: center;
+  background-size: cover;
+}
+
+section h2 {
+  font-size: 3rem;
+  color: #faf6f6;
+  text-align: center;
+  font-weight: 300;
+}
+
+ul li {
+  padding-bottom: 2rem;
+}
+
+section a {
+  color: rgb(30, 195, 30);
+  font-size: 3rem;
+}
+
+ul li a {
+  font-size: 3rem;
+  color: #ffffff;
+  transition: 0.5s;
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border: 1px solid #ffffff;
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 2rem;
+}
+
+ul li a:hover {
+  font-size: 4rem;
+  color: #f50303;
+  font-weight: 700;
+}
+
+ul li a:focus {
+  font-size: 4rem;
+  background-color: #72da6d;
+  color: #ffffff;
+}
+
+#menu {
+  background-image: linear-gradient(
+      rgba(26, 27, 26, 0.3),
+      rgba(21, 22, 21, 0.3)
+    ),
+    url(../images/menu-bg.jpg);
+}
+
+#html {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url(../images/html-bg.jpg);
+  position: relative;
+}
+
+#css {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url(../images/css-bg.jpg);
+  position: relative;
+}
+
+#nodejs {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url(../images/node-js-bg.jpg);
+  position: relative;
+}
+
+#bootstrap {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url(../images/bootstrap-bg.avif);
+  position: relative;
+}
+
+#react {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url(../images/react-bg.jpg);
+  position: relative;
+}
+
+.html-video {
+  position: absolute;
+  left: 5rem;
+  bottom: 4rem;
+}
+
+.html-map {
+  position: absolute;
+  right: 3rem;
+  bottom: 5rem;
+  border-radius: 2rem;
+  opacity: 0.8;
+}
+
+#html p {
+  color: #ffffff;
+  width: 51rem;
+  font-size: 2.5rem;
+  position: absolute;
+  left: 5rem;
+  top: 4rem;
+  background-color: rgba(249, 250, 248, 0.2);
+  border-radius: 1rem;
+}
+
+.css-video {
+  position: absolute;
+  right: 2rem;
+  bottom: 5rem;
+}
+
+.css-map {
+  position: absolute;
+  left: 3rem;
+  bottom: 5rem;
+  border-radius: 2rem;
+  opacity: 0.8;
+}
+
+#css p {
+  color: #ffffff;
+  width: 51rem;
+  font-size: 2.5rem;
+  position: absolute;
+  right: 5rem;
+  top: 5rem;
+  background-color: rgba(249, 250, 248, 0.2);
+  border-radius: 1rem;
+}
+
+.nodejs-video {
+  position: absolute;
+  left: 7rem;
+  top: 5rem;
+}
+
+#nodejs p {
+  color: #ffffff;
+  width: 51rem;
+  font-size: 2.5rem;
+  position: absolute;
+  right: 4rem;
+  top: 5rem;
+  background-color: rgba(249, 250, 248, 0.2);
+  border-radius: 1rem;
+}
+
+.bootstrap-video {
+  position: absolute;
+  right: 1rem;
+  bottom: 5rem;
+  opacity: 0.6;
+}
+
+#bootstrap p {
+  color: #ffffff;
+  width: 51rem;
+  font-size: 2.5rem;
+  position: absolute;
+  left: 4rem;
+  top: 5rem;
+  background-color: rgba(249, 250, 248, 0.2);
+  border-radius: 1rem;
+}
+
+.react-video {
+  position: absolute;
+  left: 3rem;
+  bottom: 5rem;
+  opacity: 0.6;
+}
+
+#react p {
+  color: #ffffff;
+  width: 51rem;
+  font-size: 2.5rem;
+  position: absolute;
+  right: 6rem;
+  top: 5rem;
+  background-color: rgba(249, 250, 248, 0.2);
+  border-radius: 1rem;
+}
